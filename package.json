@@ -1,10 +1,9 @@
 {
   "name": "country",
   "version": "1.0.0",
-  
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel serve index.html --port 3000",
+  "build": "parcel build index.html --dist-dir dist"
   },
   "author": "",
   "license": "ISC",
