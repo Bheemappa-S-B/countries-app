@@ -2,14 +2,15 @@
   "name": "country",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel serve index.html --port 3000",
-  "build": "parcel build index.html --dist-dir dist"
+    "dev": "parcel index.html --port 3000",
+    "build": "parcel build index.html --dist-dir dist"
+    
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel": "^2.15.4"
+    
   },
   "dependencies": {
     "react": "^19.1.1",
