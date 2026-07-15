@@ -4,13 +4,12 @@
   "scripts": {
     "dev": "parcel index.html --port 3000",
     "build": "parcel build index.html --dist-dir dist"
-    
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    
+    "parcel": "^2.16.4"
   },
   "dependencies": {
     "react": "^19.1.1",
